@@ -1,4 +1,4 @@
-  body {
+body {
     max-width: 960px;
     margin: 0 auto;
     background-color: #ffffff
@@ -40,8 +40,6 @@ main {
   
   
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     justify-items: center;
     justify-content: center;
     border-radius: 1em / 1em;
@@ -50,14 +48,13 @@ header {
     margin: 0 auto;
     padding-top: 10px;
     max-width: 100%;
-    height: 300px;
+    height: 400px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
   }
 
 
   
 .social-box {
-    display: grid;
     border-radius: 1em / 1em;
     background-color: #1a91af;
     background-position: center;
@@ -66,7 +63,7 @@ header {
     margin-top: 5px;
     margin-bottom: 5px;
     max-width: 100%;
-    height: 150px;
+    height: 160px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
   
   }
@@ -88,12 +85,12 @@ footer {
 }
 
 .p-footer-1{
-  font-size: 25px;
+  font-size: 20px;
   color:aliceblue;
 }
 
 .p-footer-2{
-  font-size: 22px;
+  font-size: 18px;
   color: rgba(255, 217, 0, 0.733);
 }
 
