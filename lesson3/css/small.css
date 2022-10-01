@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:wght@300&display=swap');
 main {
     background-color: white;
     padding: 1em;
@@ -52,4 +53,47 @@ img {
 
 div p {
   padding: 1em;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color:#DD403A;
+}
+.secondary {
+  background-color:#3E363F;
+}
+.accent1 {
+  background-color:#FFFCE8;
+}
+.accent2{
+  background-color:#D8E59F;
+}
+p.colored {
+  background-color:#FFFCE8;
+  color:#953D3D;
+}
+p {
+  padding: 1em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 1.5em;
+}
+
+p, li {
+  font-family: Verdana, Helvetica, sans-serif;
 }
