@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:wght@300&display=swap');
 
 body {
 	padding: 0;
@@ -15,6 +15,15 @@ header {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "EB Garamond", Georgia, serif;
+    font-size: 1.5em;
+  }
+
+p, li {
+    font-family: Verdana, Helvetica, sans-serif;
+  }
 
 .logo {
 	display: flex;
@@ -64,7 +73,7 @@ header {
 
   /*----------- apply a natural box layout model to all elements --------------*/
   * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-  
+ 
   
   h1, p {margin: 0 2vw;}
   
@@ -74,6 +83,7 @@ header {
       border: none;
       font-size: 2rem;
       color: #555;
+      float: right;
   }
   
   nav{ 
