@@ -25,4 +25,8 @@
         grid-row: 1;
     }
 
+    .date {
+        font-size: 1.1em;
+    }
+
 }
