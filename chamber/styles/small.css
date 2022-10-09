@@ -50,7 +50,52 @@ header {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+footer {
+    background-color:#83a49c;
+	padding: 5px 0;
+	align-items: center;
+	max-width: 900px;
+	margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
 
+.footer-logo {
+    flex-direction: column;
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.footer-logo img {
+	width: 80px;
+	height: auto;
+}
+
+.footer-headings {
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+}
+
+.footer-headings h1 {
+	font-size: 1.5rem;
+}
+
+.info{
+    text-align: center;
+}
+.info p {
+    padding-top: 10px;
+}
+.info2 {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#lastModified {
+    text-align: center;
+}
 .date {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
