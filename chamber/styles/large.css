@@ -28,5 +28,52 @@
     .date {
         font-size: 1.1em;
     }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px 200px;
+        gap: 10px;
+    }
 
+    .hero {
+        grid-column: 3/6;
+        grid-row: 1/3;
+    }
+
+    .event {
+        grid-column: 1 / 3;
+        grid-row: 1;
+    }
+
+    .weather {
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+
+    .news {
+        grid-column: 3/6;
+        grid-row: 3/4;
+    }
+
+    .join {
+        grid-column: 1/3;
+        grid-row: 3;
+    }
+
+    .spotlights {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column: 6/8;
+        grid-row: 1/4;
+        height: 620px;
+    }
+
+    .spot3{
+        display: block;
+    }
+    .grid2 {
+        margin: 10px 10px 10px 10px;
+    }
 }
