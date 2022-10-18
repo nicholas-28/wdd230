@@ -32,3 +32,12 @@ let lastModification = document.lastModified;
 
 let lastUpdated = document.getElementById('lastModified');
 lastUpdated.innerHTML = `Last Modification: ${document.lastModified}`;
+
+function meetingReminder(day){
+    const banner = document.querySelector(".banner");
+    
+    if(day == 1 || day == 2){
+      banner.setAttribute('id','visible');
+    }
+  }
+meetingReminder(date.getDay());

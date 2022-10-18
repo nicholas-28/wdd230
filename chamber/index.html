@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
+    <div class="banner">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
     <header>
         <div class="logo">
             <picture>
@@ -57,9 +60,9 @@
                     </g>
                 </svg></a>
         </div>
-        <nav>
+        <nav class="header-nav">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-            <ul id="primaryNav">
+            <ul>
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
@@ -68,9 +71,20 @@
         </nav>
         <div class="date"></div>
     </header>
+    <nav class="hamburger-nav">
+        <ul id="primaryNav">
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>       
+        </ul>
+    </nav>
     <main>
         <div class="container">
-            <div class="grid hero">Hero with site name and call to action</div>
+            <div class="grid hero">
+                <img id="heroimg" src="images/tbilisi.jpg" alt="view of Tbilisi">
+
+            </div>
             <div class="grid event">Event</div>
             <div class="grid weather">Weather</div>
             <div class="grid news">News Release</div>
@@ -97,7 +111,6 @@
             <p>+(995) 577-410566</p>
             <p>📍Location Map</p>
         </div>
-        <hr>
         <div class="info2">
             <p>&copy; <span id="year"></span> Tbilisi Chamber | <b>Nikolai Cherenkov</b> | WDD 230 Project | </p>
             <div id="lastModified"></div>

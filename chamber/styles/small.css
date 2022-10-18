@@ -9,7 +9,7 @@ main {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: repeat(5, 1fr);
     gap: 10px;
 }
 
@@ -91,6 +91,9 @@ footer {
 .info2 {
     font-size: 0.8em;
     text-align: center;
+    border-top: 1px solid #bbb;
+    padding: 5px;
+    margin: 10px;
 }
 
 #lastModified {
@@ -202,3 +205,31 @@ p, li {
   
   #hamburgerBtn.open span:nth-child(1) {display: none;}
   #hamburgerBtn.open span:nth-child(2) {display: block;}
+
+  .hamburger-nav {
+	background-color:#83a49c;
+	padding: 5px 0;
+	align-items: center;
+	max-width: 900px;
+	margin: 0 auto;
+}
+#visible{
+    display: block;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+.banner{
+    display: none;
+}
+
+
+  #heroimg {
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+  }
+  
