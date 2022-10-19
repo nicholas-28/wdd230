@@ -258,3 +258,14 @@ main a {
     text-align: center;
     padding: 10px;
 }
+.weather h3{
+    text-align: center;
+}
+#icon {
+    font-size: 4em;
+}
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
