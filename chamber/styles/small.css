@@ -9,7 +9,7 @@ main {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr auto 1fr;
+    grid-template-rows: auto auto 1fr auto;
     gap: 10px;
 }
 
@@ -28,8 +28,8 @@ main {
 .spotlights {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 140px 140px;
-    height: 280px;
+    grid-template-rows: auto auto;
+    height: auto;
 }
 .spot1 {
     margin: 10px 10px 5px 10px;
@@ -280,7 +280,7 @@ main a {
 }
 .bottom p {
     margin: 10px;
-    margin: 10px 30px 0px 30px;
+    margin: 10px 30px 10px 30px;
 }
 
 .news h3{
@@ -290,4 +290,31 @@ main a {
 .news p{
     text-align: center;
     padding: 10px
+}
+
+.spot1 {
+    text-align: center;
+}
+
+.spotlights h3{
+    margin-bottom: 10px;
+}
+
+.spotlights h5{
+    font-size: 1.4em;
+    margin: 10px
+}
+.spotlights p{
+    font-size: 0.8em;
+    padding:5px
+}
+
+.spot2 {
+    text-align: center;
+}
+.spot3 {
+    text-align: center;
+}
+.spotlights img {
+    height: 60px;
 }
