@@ -45,9 +45,14 @@
 	}
 
 	.join {
-		display: inline;
+		display: flex;
 		grid-column: 1 / 8;
 		grid-row: 4;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
 	}
 
 	.spotlights {
