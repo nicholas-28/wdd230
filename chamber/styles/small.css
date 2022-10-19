@@ -9,7 +9,7 @@ main {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: auto auto 1fr 1fr 1fr;
     gap: 10px;
 }
 
@@ -194,6 +194,7 @@ p, li {
   
   nav ul li a:hover {
       background-color: rgba(0,0,0,0.3);
+      transition: 0.6s ease;
   }
   
   nav ul {display: none;}
@@ -226,6 +227,20 @@ p, li {
     display: none;
 }
 
+.hero h2{
+    width: 80%;
+    text-align: center;
+    color: antiquewhite;
+    position: relative;
+    border: 1px solid #bbb;
+	top: -70%;
+	left: 10%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #333;
+
+}
 
 #heroimg {
     width: 100%;
@@ -235,3 +250,11 @@ p, li {
     object-fit: fill;
   }
   
+main a {
+    color: rgb(130, 97, 13);
+}
+
+.event{
+    text-align: center;
+    padding: 10px;
+}
