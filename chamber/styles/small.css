@@ -295,7 +295,12 @@ main a {
 .spot1 {
     text-align: center;
 }
-
+.spot2 {
+    text-align: center;
+}
+.spot3 {
+    text-align: center;
+}
 .spotlights h3{
     margin-bottom: 10px;
 }
@@ -309,18 +314,13 @@ main a {
     padding:5px
 }
 
-.spot2 {
-    text-align: center;
-}
-.spot3 {
-    text-align: center;
-}
+
 .spotlights img {
     height: 60px;
 }
 
 .join button{
-    width: 100%;
+    width: 90%;
     height: 50px;
     margin: 10px;
     text-align: center;

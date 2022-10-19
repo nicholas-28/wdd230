@@ -67,12 +67,12 @@
     }
 
     .spotlights {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
         grid-column: 6/8;
         grid-row: 1/4;
         height: auto;
+        justify-content: center;
     }
 
     .spot3{
@@ -81,4 +81,6 @@
     .grid2 {
         margin: 5px;
     }
+
+
 }
