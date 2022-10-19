@@ -9,7 +9,7 @@ main {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr auto 1fr;
     gap: 10px;
 }
 
@@ -260,12 +260,34 @@ main a {
 }
 .weather h3{
     text-align: center;
+    margin-bottom: 15px;
 }
 #icon {
     font-size: 4em;
 }
-.icon-text {
+.top {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.bottom h6{
+    border-bottom: 1px solid #bbb;
+    margin: 10px 30px 0px 30px;
+    text-align: end;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+.bottom p {
+    margin: 10px;
+    margin: 10px 30px 0px 30px;
+}
+
+.news h3{
+    text-align: center;
+
+}
+.news p{
+    text-align: center;
+    padding: 10px
 }
