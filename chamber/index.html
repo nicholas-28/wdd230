@@ -18,7 +18,7 @@
     <header>
         <div class="logo">
             <picture>
-                <img src="images/logo.png" alt="Logo image">
+                <img src="images/logo.webp" alt="Logo image">
             </picture>
             <section class="headings">
                 <h1>Tbilisi</h1>
@@ -82,8 +82,10 @@
     <main>
         <div class="container">
             <div class="grid hero">
-                <picture>
-                    <img id="heroimg" src="images/tbilisi.jpg" alt="view of Tbilisi">
+                <picture class="heropic">
+                    <source media="(max-width: 559px)" srcset="images/wdd230small.jpg">
+                    <source media="(max-width: 1023px)" srcset="images/wdd230medium.jpg">
+                    <img id="heroimg" src="images/wdd230large.jpg" alt="wdd image">
                 </picture>
                 <h2>
                     Welcome to Tbilisi
@@ -101,12 +103,12 @@
                 <h3>Weather</h3>
                 <div class="top">
                     <h1 id="icon">⛅</h1>
-                    <h3>18°</h3>
+                    <h3><span id="temperature">65</span>°F</h3>
                 </div>
                 <div class="bottom">
                     <h6>Partly Cloudy</h2>
-                    <p>Wind Speed: 2 km/h <br>
-                    Wind Chill: N/A</p>
+                    <p>Wind speed: <span id="windspeed">24</span>m/h</p>
+                    <p>Wind chill: <span id="windchill"></span></p>
                 </div>
             </div>
             <div class="grid news">
@@ -145,7 +147,7 @@
     <footer>
         <div class="footer-logo">
             <picture>
-                <img src="images/logo.png" alt="Logo image">
+                <img src="images/logo.webp" alt="Logo image">
             </picture>
             <section class="footer-headings">
                 <h1>Tbilisi Chamber of Commerce</h1>
@@ -163,5 +165,6 @@
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
