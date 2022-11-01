@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lazy Load Activity</title>
+</head>
+<body>
+    <h1>Progressive Loading of Images</h1>
+    <picture>
+        <img src="https://placeimg.com/300/400/arch" alt="placeholder" class="load">
+    </picture>
+    <picture>
+        <img src="https://placeimg.com/300/400/nature" alt="placeholder" class="load">
+    </picture>
+    <picture>
+        <img src="images/placeholder.png"  
+        data-src="https://placeimg.com/300/400/tech" alt="placeholder">
+    </picture>
+    <picture>
+        <img src="images/placeholder.png" 
+        data-src="https://placeimg.com/300/400/people" alt="placeholder">
+    </picture>
+    <picture>
+        <img src="images/placeholder.png" 
+        data-src="https://placeimg.com/300/400/animals" alt="placeholder">
+    </picture>
+    <script src="js/lazyload.js" async defer></script>
+</body>
+</html>
