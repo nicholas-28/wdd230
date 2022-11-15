@@ -81,6 +81,10 @@
     .grid2 {
         margin: 5px;
     }
+    /*----------- FORM --------------*/
 
+    form label.sbs {
+    padding: .4rem 0;
+    } 
 
 }
