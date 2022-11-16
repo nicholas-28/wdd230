@@ -1,17 +1,23 @@
 header{
-    width: 100%;
     text-align: center;
 
 }
 
 body{
-    margin: 0;
+    max-width: 100%;
+    margin: 0 auto;
     background-color:antiquewhite;
 }
 
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 main{
-    margin: 3rem;
+    margin: 2rem;
 
 }
 
@@ -39,5 +45,5 @@ section{
 footer{
     background-color:rgb(98, 165, 181);
     text-align: center;
-    margin: 3rem;
+    margin: 2rem;
 }
