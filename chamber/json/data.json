@@ -1,74 +1,76 @@
-[
-    {
-        "name": "MagtiCom",
-        "address": "Tbilisi, 7 A. Politkovskaya st.",
-        "phone": "+995 322 170 000",
-        "url": "https://www.magticom.ge/en/",
-        "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Magticom_Logo.svg",
-        "membership": "Silver"
-    },
-    {
-        "name": "Silknet",
-        "address": "Heydar Aliyev Right Bank N7, Tbilisi",
-        "phone": "+995 322 100 100",
-        "url": "https://silknet.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Silknet_Logo_2018.png",
-        "membership": "Silver"
-    },
-    {
-        "name": "Georgian Airways",
-        "address": "Rustaveli avenue 12, Tbilisi",
-        "phone": "+995 322 111 220",
-        "url": "https://www.georgian-airways.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/en/4/40/Georgian_Airways_logo.svg",
-        "membership": "Gold"
-    },
-    {
-        "name": "Georgian International Airlines",
-        "address": "Shalva Nutsubidze 12, Tbilisi",
-        "phone": "+995 551 907 907",
-        "url": "https://avia.ge/", 
-        "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Georgian_International_Airlines_%28logo%29.png",
-        "membership": "Bronze"
-    },
-    {
-        "name": "Liberty Bank",
-        "address": "74 Chavchavadze ave. Tbilisi",
-        "phone": "+995 322 555 500",
-        "url": "https://www.libertybank.ge/ka/",
-        "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/Liberty_Bank_%28Georgia%29.png",
-        "membership": "Gold"
-    },    
-    {
-        "name": "Imedi Media Holding",
-        "address": "5 Lubliana str, Tbilisi",
-        "phone": "+995 322 463 333",
-        "url": "https://www.imedi.ge/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Imlogo_2020.png",
-        "membership": "Silver"
-    },
-    {
-        "name": "National Bank of Georgia",
-        "address": "1, Zviad Gamsakhurdia Embankment, Tbilisi",
-        "phone": "+995 322 406 406",
-        "url": "https://nbg.gov.ge/",
-        "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/National_Bank_of_Georgia.png",
-        "membership": "Gold"
-    },
-    {
-        "name": "Telasi",
-        "address": "Vani Str. 3, Tbilisi",
-        "phone": "+995 322 779 999",
-        "url": "http://www.telasi.ge/",
-        "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/Telasi_logo.png",
-        "membership": "Bronze"
-    },
-    {
-        "name": "TBC Bank",
-        "address": "K. Marjanishvili St. 7, Tbilisi",
-        "phone": "+995 322 272 727",
-        "url": "http://www.tbcbank.ge",
-        "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/TBC_Bank_logo.svg",
-        "membership": "Gold"
-    }
-]
+{
+    "companies": [
+        {
+            "name": "MagtiCom",
+            "address": "Tbilisi, 7 A. Politkovskaya st.",
+            "phone": "+995 322 170 000",
+            "url": "https://www.magticom.ge/en/",
+            "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Magticom_Logo.svg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Silknet",
+            "address": "Heydar Aliyev Right Bank N7, Tbilisi",
+            "phone": "+995 322 100 100",
+            "url": "https://silknet.com/",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Silknet_Logo_2018.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Georgian Airways",
+            "address": "Rustaveli avenue 12, Tbilisi",
+            "phone": "+995 322 111 220",
+            "url": "https://www.georgian-airways.com/",
+            "image": "https://upload.wikimedia.org/wikipedia/en/4/40/Georgian_Airways_logo.svg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Georgian International Airlines",
+            "address": "Shalva Nutsubidze 12, Tbilisi",
+            "phone": "+995 551 907 907",
+            "url": "https://avia.ge/", 
+            "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Georgian_International_Airlines_%28logo%29.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Liberty Bank",
+            "address": "74 Chavchavadze ave. Tbilisi",
+            "phone": "+995 322 555 500",
+            "url": "https://www.libertybank.ge/ka/",
+            "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/Liberty_Bank_%28Georgia%29.png",
+            "membership": "Gold"
+        },    
+        {
+            "name": "Imedi Media Holding",
+            "address": "5 Lubliana str, Tbilisi",
+            "phone": "+995 322 463 333",
+            "url": "https://www.imedi.ge/",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Imlogo_2020.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "National Bank of Georgia",
+            "address": "1, Zviad Gamsakhurdia Embankment, Tbilisi",
+            "phone": "+995 322 406 406",
+            "url": "https://nbg.gov.ge/",
+            "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/National_Bank_of_Georgia.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Telasi",
+            "address": "Vani Str. 3, Tbilisi",
+            "phone": "+995 322 779 999",
+            "url": "http://www.telasi.ge/",
+            "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/Telasi_logo.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "TBC Bank",
+            "address": "K. Marjanishvili St. 7, Tbilisi",
+            "phone": "+995 322 272 727",
+            "url": "http://www.tbcbank.ge",
+            "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/TBC_Bank_logo.svg",
+            "membership": "Gold"
+        }
+    ]
+}
