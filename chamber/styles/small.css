@@ -464,11 +464,12 @@ ul li {
     margin:  0 auto;
     background-color: antiquewhite;
 }
-
-.thanks p, h1{
+.th {
     padding: .75rem;
     text-align: center;
 }
+
+
 
 /*----------- DISCOVER --------------*/
 
