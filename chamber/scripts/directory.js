@@ -6,9 +6,8 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); 
         const companies = jsonObject['companies'];
-        companies.forEach(displayCompanies);      
+        companies.forEach(displayCompanies);
     });
 
 function displayCompanies(company) {
@@ -21,11 +20,12 @@ function displayCompanies(company) {
     let membership = document.createElement('p');
 
     name.textContent = company.name;
-    address.textContent = company.address;
-    phone.textContent = company.phone;
-    web.textContent = company.url;
-    membership.textContent = company.membership;
+    address.textContent =`📍${company.address}`;
+    phone.textContent = `☎️ ${company.phone}`;
+    web.textContent = `🌐 ${company.name} site`;
+    membership.textContent = `👥 ${company.membership}`;
 
+    web.setAttribute('href', company.url);
     image.setAttribute('src', company.image);
     image.setAttribute('alt', `Logo of ${company.name}`);
     image.setAttribute('loading', 'lazy');
@@ -37,5 +37,22 @@ function displayCompanies(company) {
     card.appendChild(web);
     card.appendChild(membership);
 
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('article.discovery').appendChild(card);
+}
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid-disc");
+	display.classList.remove("list-disc");
+});
+
+listbutton.addEventListener("click", showList); 
+
+function showList() {
+	display.classList.add("list-disc");
+	display.classList.remove("grid-disc");
 }
