@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    border: 5px solid rgba(187, 177, 34, 0.333);
+    background-color: antiquewhite;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2, h1 {
+    text-shadow: 0 0 30px rgb(247, 82, 0)
+}
