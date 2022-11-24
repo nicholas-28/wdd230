@@ -12,7 +12,7 @@ fetch(requestURL)
 });
 
 function displayProphets(prophet) {
-    let card = document.createElement('section');
+    let card = documentname
     let portrait = document.createElement('img');
     let name = document.createElement('h2');
     let birthdate = document.createElement('p');
