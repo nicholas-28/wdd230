@@ -124,4 +124,8 @@
 		font-size: 1.5em;
 	}
 
+	form label.top, form div {
+		font-size: .8rem;
+	}
+
 }

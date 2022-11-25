@@ -408,7 +408,7 @@ form label.top, form div {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
-    font-size: .8rem;
+    font-size: 1.1rem;
 }
 
 form label.top input, form label.top select, textarea {
@@ -581,4 +581,24 @@ form label.top input:required:valid {
 /*----------- CONTACT --------------*/
 .contact-main {
     background-color: antiquewhite;
+}
+
+.description {
+    margin: auto 0;
+    padding: 3em 0;
+    border: 1px solid #074848;
+    border-radius: 10px;
+
+}
+
+.cont-h2 {
+    margin: 0 2vw 2vw 2vw;
+    text-shadow: 2px 2px #d2b079;
+
+}
+
+.description h1{
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    text-shadow: 2px 2px #d2b079;
 }
