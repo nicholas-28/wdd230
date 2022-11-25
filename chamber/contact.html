@@ -63,8 +63,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li class="active"><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>       
+                <li><a href="join.html">Join</a></li>
+                <li class="active"><a href="#">Contact</a></li>       
             </ul>
         </nav>
         <div class="date"></div>
@@ -74,59 +74,24 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li class="active"><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>       
+            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="#">Contact</a></li>       
         </ul>
     </nav>
-    <main class="join-main">
-        <h1>Join Our Chamber</h1>
+    <main class="contact-main">
+        <h1>Contact Us</h1>
         <form method="get" action="thanks.html">
             <fieldset>
-                <legend>Personal Information</legend>
+                <legend>Contact Informormation</legend>
                 <label class="top">First Name*: <input type="text" name="fname" required autofocus></label>
                 <label class="top">Last Name*: <input type="text" name="lname" required></label>
                 <label class="top">Email*: <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Phone*: <input type="tel" name="phone" placeholder="1235551234" required></label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Business Information</legend>
-                <label class="top">Position: <input type="text" name="position" pattern="[a-zA-z \-]{7,}"></label>
-                <label class="top">Business Name*: <input type="text" name="busName" required></label>
-                <label class="top">Business Description*<textarea type="textarea" name="busDescription" required></textarea></label>
-            </fieldset>
-            
-
-            <fieldset>
-                <legend>Membership Levels</legend>
-                <fieldset>
-                    <div>Choose level:</div>
-                    <label class="sbs"><input type="radio" name="level" value="yes">Bronze Level</label>
-                        <div class="level">
-                            <ul>
-                                <li>Search for business partners</li>
-                                <li>Opportunity to improve your business</li>
-                            </ul>
-                        </div>
-                    <label class="sbs"><input type="radio" name="level" value="yes">Silver Level</label>
-                        <div class="level">
-                            <ul>
-                                <li>Participation in the loyalty program</li>
-                                <li>Promotion of the company to target markets</li>
-                            </ul>
-                        </div>
-                    <label class="sbs"><input type="radio" name="level" value="yes">Gold Level</label>
-                        <div class="level">
-                            <ul>
-                                <li>50% discount at the buffet</li>
-                                <li>Free donuts</li>
-                            </ul>
-                        </div>
-                </fieldset>
+                <label class="top">Question/Concern*<textarea type="textarea" name="question" placeholder="Write your Question or Concern here." required></textarea></label>
             </fieldset>
             <input type="hidden" id="date" name="date" value="CurrentTime">
             <input type="hidden" id="time" name="time" value="CurrentDate">
-            <input type="submit" value="Join Chamber" class="submitBtn">
+            <input type="submit" value="Contact Us" class="submitBtn">
         </form>
     </main>
     <footer>
