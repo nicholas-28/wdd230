@@ -449,11 +449,11 @@ form label.top input:required:valid {
 .level{
     padding: .30rem 0;
 }
-ul {
+.join-main ul {
     margin: .001rem;
 }
 
-ul li {
+.join-main ul li {
     padding: .20rem 0;
 }
 
