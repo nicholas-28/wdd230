@@ -262,9 +262,7 @@ main a {
     text-align: center;
     margin-bottom: 15px;
 }
-#icon {
-    font-size: 4em;
-}
+
 .top {
     display: flex;
     flex-direction: row;
@@ -563,18 +561,17 @@ ul li {
     border-radius: 5px;
 }
 
-.discovery p{
+.directory-main p{
     padding: .5rem;
+    font-size: 1.3em;
 }
 
 .discovery section:first-child img {
     width: 50%;
 }
 
-.discovery a, p{
-    font-size: 1.3em;;
-} 
 
-.discovery h1{
+
+.directory-main h1{
     font-size: 2em;
 }

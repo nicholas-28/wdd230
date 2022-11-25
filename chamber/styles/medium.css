@@ -113,11 +113,14 @@
 		background-color: rgb(245, 245, 240);
 	}
 
-	.discovery a, p {
-		font-size: 1.1em;;
+	.directory-main a {
+		font-size: 1.1em;
+	} 
+	.directory-main p {
+		font-size: 1.1em;
 	} 
 
-	.discovery h1{
+	.directory-main h1{
 		font-size: 1.5em;
 	}
 
