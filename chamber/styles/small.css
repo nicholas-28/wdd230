@@ -325,6 +325,9 @@ main a {
     background-color: #83a49c;
     border-radius: 20px;
 }
+.join a {
+    text-decoration: none;
+}
 
 /* Discover block */
 

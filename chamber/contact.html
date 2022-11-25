@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
-    <div class="banner">
-        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
-    </div>
     <header>
         <div class="logo">
             <picture>
@@ -63,10 +60,10 @@
         <nav class="header-nav">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li class="active"><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>       
             </ul>
         </nav>
@@ -74,77 +71,63 @@
     </header>
     <nav class="hamburger-nav">
         <ul id="primaryNav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="#">Join</a></li>
             <li><a href="#">Contact</a></li>       
         </ul>
     </nav>
-    <main>
-        <div class="container">
-            <div class="grid hero">
-                <picture class="heropic">
-                    <source media="(max-width: 559px)" srcset="images/wdd230small.jpg">
-                    <source media="(max-width: 1023px)" srcset="images/wdd230medium.jpg">
-                    <img id="heroimg" src="images/wdd230large.jpg" alt="wdd image">
-                </picture>
-                <h2>
-                    Welcome to Tbilisi
-                    <br>
-                    <br>
-                    Join The Chamber
-                </h2>
-            </div>
-            <div class="grid event">
-                <h3>Ribbon Cutting 🍽</h3>
-                <p>Join us for the grand opening of a buffet in our main building. <a href="#">More info...</a></p>
-                
-            </div>
-            <div class="grid weather">
-                <h3>Weather</h3>
-                <div class="top">
-                    <img src="" alt="" id="weather-icon" />
-                    <h3><span id="temperature"></span>°F</h3>
-                </div>
-                <div class="bottom">
-                    <h6><span id="condition"></span></h2>
-                    <p>Wind speed: <span id="windspeed"></span>m/h</p>
-                    <p>Wind chill: <span id="windchill"></span></p>
-                </div>
-            </div>
-            <div class="grid news">
-                <h3>News Release</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolorem? Vel dolorum, ut omnis reiciendis saepe enim tempore laudantium dicta, excepturi tempora ipsa dolorem temporibus distinctio, tenetur necessitatibus deserunt labore!</p>
-            </div>
-            <div class="grid join">
-                <button type="button" onclick="window.location.href='join.html'">Join Us!</button>
-                <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-            </div>
-            <div class="grid spotlights">
-                <div class="grid2 spot1">
-                    <h3>Fast Delivery</h3>
-                    <img src="images/delivery-truck.png">
-                    <h5>"We do it fast!"</h5>
-                    <p>hello@fastdelivery.com</p>
-                    <p>+999-9999-9999 | <a href="#">Website</a></p>
-                </div>
-                <div class="grid2 spot2">
-                    <h3>Divine Pizza</h3>
-                    <img src="images/pizza.png">
-                    <h5>"One peace, and you are in heaven"</h5>
-                    <p>contact@divinepizza.com</p>
-                    <p>+999-9999-9999 | <a href="#">Website</a></p>
-                </div>
-                <div class="grid2 spot3">
-                    <h3>Georgian Restaurant</h3>
-                    <img src="images/food-tray.png">
-                    <h5>Try the best food in Tbilisi</h5>
-                    <p>contact@gerestaurant.com</p>
-                    <p>+999-9999-9999 | <a href="#">Website</a></p>
-                </div>
-            </div>
-        </div>
+    <main class="join-main">
+        <h1>Join Our Chamber</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name*: <input type="text" name="fname" required autofocus></label>
+                <label class="top">Last Name*: <input type="text" name="lname" required></label>
+                <label class="top">Email*: <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone*: <input type="tel" name="phone" placeholder="1235551234" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Position: <input type="text" name="position" pattern="[a-zA-z \-]{7,}"></label>
+                <label class="top">Business Name*: <input type="text" name="busName" required></label>
+                <label class="top">Business Description*<textarea type="textarea" name="busDescription" required></textarea></label>
+            </fieldset>
+            
+
+            <fieldset>
+                <legend>Membership Levels</legend>
+                <fieldset>
+                    <div>Choose level:</div>
+                    <label class="sbs"><input type="radio" name="level" value="yes">Bronze Level</label>
+                        <div class="level">
+                            <ul>
+                                <li>Search for business partners</li>
+                                <li>Opportunity to improve your business</li>
+                            </ul>
+                        </div>
+                    <label class="sbs"><input type="radio" name="level" value="yes">Silver Level</label>
+                        <div class="level">
+                            <ul>
+                                <li>Participation in the loyalty program</li>
+                                <li>Promotion of the company to target markets</li>
+                            </ul>
+                        </div>
+                    <label class="sbs"><input type="radio" name="level" value="yes">Gold Level</label>
+                        <div class="level">
+                            <ul>
+                                <li>50% discount at the buffet</li>
+                                <li>Free donuts</li>
+                            </ul>
+                        </div>
+                </fieldset>
+            </fieldset>
+            <input type="hidden" id="date" name="date" value="CurrentTime">
+            <input type="hidden" id="time" name="time" value="CurrentDate">
+            <input type="submit" value="Join Chamber" class="submitBtn">
+        </form>
     </main>
     <footer>
         <div class="footer-logo">
@@ -167,8 +150,6 @@
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/meetingreminder.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/weatherapi.js" ></script>
+    <script src="scripts/join.js"></script>
 </body>
 </html>
