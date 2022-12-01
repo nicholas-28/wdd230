@@ -18,10 +18,7 @@ main {
     background-color: rgb(245, 245, 240);
 
 }
-.grid2 {
-    border: 1px solid #bbb;
-    background-color: rgb(245, 245, 240);
-}
+
 .join {
     display: none;
 }
@@ -33,12 +30,18 @@ main {
 }
 .spot1 {
     margin: 10px 10px 5px 10px;
+    border: 1px solid #bbb;
+    background-color: rgb(245, 245, 240);
 }
 .spot2 {
     margin: 5px 10px 10px 10px;
+    border: 1px solid #bbb;
+    background-color: rgb(245, 245, 240);
 }
 .spot3 {
     display: none;
+    border: 1px solid #bbb;
+    background-color: rgb(245, 245, 240);
 }
 header {
 	background-color:#83a49c;
@@ -291,15 +294,19 @@ main a {
 
 .spot1 {
     text-align: center;
+    padding: 5px;
 }
 .spot2 {
     text-align: center;
+    padding: 5px;
 }
 .spot3 {
     text-align: center;
+    padding: 5px;
 }
 .spotlights h3{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .spotlights h5{
@@ -311,9 +318,25 @@ main a {
     padding:5px
 }
 
+.spotlights a{
+    text-decoration: none;
+}
+.spot1 img{
+    width: 100%;
+    max-width: 190px;
+    height: auto;
 
-.spotlights img {
-    height: 60px;
+}
+.spot2 img{
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+
+}
+.spot3 img{
+    width: 100%;
+    max-width: 1%0px;
+    height: auto;
 }
 
 .join button{

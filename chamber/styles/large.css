@@ -78,15 +78,48 @@
     .spot3{
         display: block;
     }
-    .grid2 {
-        margin: 5px;
-    }
+
     /*----------- FORM --------------*/
 
     form label.sbs {
     padding: .4rem 0;
     } 
+    .spot1 {
+        margin: 5px;
+        height: 256px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .spot2 {
+        margin: 5px;
+        height: 256px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .spot3 {
+        margin: 5px;
+        height: 256px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .spotlights h3{
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    
 
 }
