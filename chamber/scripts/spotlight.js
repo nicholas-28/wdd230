@@ -12,7 +12,7 @@ const requestSpotlights = async(URL) =>{
         console.log(spotlights);
         displaySpotlight(spotlights[2],'.spot1');
         displaySpotlight(spotlights[5],'.spot2');
-        displaySpotlight(spotlights[3],'.spot3');
+        displaySpotlight(spotlights[4],'.spot3');
 
         
     }
