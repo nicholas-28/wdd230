@@ -16,6 +16,7 @@ main {
 .grid {
     border: 1px solid #bbb;
     background-color: rgb(245, 245, 240);
+    overflow: hidden;
 
 }
 
