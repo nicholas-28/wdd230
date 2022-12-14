@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img class="hover"src="images/logo.webp" alt="logo">
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center ">
+                <ul class="list-inline social-links">
+                  <li><a href="https://twitter.com/#" class="btn-social btn-outline" title="Twitter"><i class="icon ion-social-twitter"></i></a>
+                  </li>
+                  <li><a href="https://instagram.com/#" class="btn-social btn-outline" title="Instagram"><i class="ion ion-social-instagram"></i></a>
+                  </li>
+                  <li><a href="#" class="btn-social btn-outline" title="Facebook"><i class="ion ion-social-facebook"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <nav class="header-nav">
+            <button id="hamburgerBtn" onclick="myFunction(this)">  
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>      
+            </ul>
+        </nav>
+    </header>
+    <nav class="hamburger-nav">
+        <ul id="primaryNav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="aboutus.html">About Us</a></li> 
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="coast">
+                <h3>Coast Information</h3>
+                <picture class="coast-picture">
+                    <source media="(max-width: 559px)" srcset="">
+                    <source media="(max-width: 1023px)" srcset="">
+                    <img src="images/placeholder.png" alt="coast">
+                </picture>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus esse quod eum placeat, quis sapiente in cumque fuga quo animi ea aperiam qui quia voluptates rem amet rerum? Architecto, quis.
+                </p>
+            </div>
+            <div class="weather-container">
+                <section class="weather">
+                    <div class="card">
+                      <div class="card__header">
+                        <h2 class="card__temp"><span id="temperature"></span></h2>
+                        <p class="card__info"><span id="condition"></span></p>
+                        <p class="card__info"><span id="humidity"></span></p>
+                      </div>
+                      <div class="card__days">
+                        <p class="card__day"><span id="day1"></span><span id="day1_temp"></span></p>
+                        <p class="card__day"><span id="day2"></span> <span id="day2_temp"></span></p>
+                        <p class="card__day"><span id="day3"></span><span id="day3_temp"></span></p>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+            <div class="mix">
+
+            </div>
+            <div class="fruits">
+
+            </div>
+        </div>
+    </main>
+   <footer>
+    <div class="footer-logo">
+        <img src="images/logo.webp" alt="logo">
+    </div>
+    <div class="footer-info">
+        <h3>Bountiful <span>Foods</span></h3>
+        <div id="lastModified"></div>
+    </div>
+    <div class="contact">
+        <p>bountifulfoods@gmail.com</p>
+        <p>1-877-926-5184</p>
+        <p>71 South Los Carneros Road, Goleta, California 93117</p>
+    </div>
+   </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+</body>
+</html>

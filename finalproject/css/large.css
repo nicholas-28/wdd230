@@ -1,0 +1,11 @@
+@media only screen and (min-width: 64rem) {
+
+    /*------NAVIGATION------*/
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+    nav button {display: none;}
+
+        
+
+    }
