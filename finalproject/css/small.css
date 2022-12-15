@@ -294,7 +294,7 @@ main{
 }
 .card {
   width: auto;
-  height: 500px;
+  height: 560px;
   border-radius: 2rem;
   overflow: hidden;
   background: linear-gradient(to right, #141e30, #243b55);
