@@ -52,10 +52,43 @@
 
     /*-----COAST----*/
     .coast-picture img {
-        max-width: 400px;
+        max-width: 450px;
+        min-width: 300px;
+      }
+      div.coast {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        background:linear-gradient(to left,#ece7e5, #efe1dd);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        border-radius: 1rem;
+        justify-items: center;
+        align-items: center;
+
+      }
+      .coast h3 {
+          grid-column:1/3 ;
+          grid-row: 1;
+      }
+      .coast picture {
+          grid-column:1/2 ;
+          grid-row: 2;
+      }
+      .coast p {
+          grid-column:2/3 ;
+          grid-row: 2;
+          font-size: 1.2em;
       }
 
+
+    /*-------------MIX---------------*/
+    div.mix {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
       
+      }
+
     }
 
 

@@ -6,31 +6,39 @@
     }
     nav button {display: none;}
 
+
+    
+
+
+    /*-----------CONTAINER----------*/
+
+    .container-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    /*-----COAST-------*/
     .coast-picture img {
         max-width: 600px;
       }
-    
-      div.coast {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
-        background:linear-gradient(to left,#ece7e5, #efe1dd);
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        border-radius: 1rem;
-        justify-items: center;
-        align-items: center;
+    .coast {
+        grid-column:1/4 ;
+        grid-row: 1;
+    }
+    /*-----WEATHER-------*/
+    .weather-container {
+        grid-column:1/3 ;
+        grid-row: 2;
+    }
 
-      }
-      .coast h3 {
-          grid-column:1/3 ;
-          grid-row: 1;
-      }
-      .coast picture {
-          grid-column:1/2 ;
-          grid-row: 2;
-      }
-      .coast p {
-          grid-column:2/3 ;
-          grid-row: 2;
+    /*-----MIX-------*/
+    .mix {
+        grid-column:3/4 ;
+        grid-row: 2;
+    }
+
+    div.mix {
+        display: flex;
+        flex-direction: column;
       }
     }

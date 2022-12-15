@@ -283,20 +283,17 @@ main{
 
 /*----------WEATHER----------*/
 .weather-container {
-  /* width: 50vw; */
   min-width: 200px;
   height: auto;
   min-height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 
 }
 .icon {
   width: 100px;
 }
 .card {
-  width: 350px;
+  width: auto;
   height: 500px;
   border-radius: 2rem;
   overflow: hidden;
@@ -368,6 +365,7 @@ main{
   width: 100%;
   max-width: 260px;
   border-radius: 1rem;
+  margin: 5px;
 }
 /*div.coast {
   display: flex;
@@ -385,8 +383,18 @@ div.coast {
   background:linear-gradient(to left,#ece7e5, #efe1dd);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border-radius: 1rem;
-  justify-items: center
+  justify-items: center;
+  border: 2px solid #243b55;
 }
+
+.coast h3 {
+  font-size: 1.6em;
+}
+
+.coast p {
+  margin: 20px
+}
+
 
 
 
@@ -401,9 +409,69 @@ div.mix {
   background: linear-gradient(to left,#ece7e5, #efe1dd);
   box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
   border-radius: 1rem;
+  border: 2px solid #243b55;
+
 }
 
 .mix img {
   max-width: 300px;
   border-radius: 1rem;
+  margin: 5px;
+}
+
+/*.mix_btn {
+  width: 95%;
+  height: 40px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.4em;
+  background: linear-gradient(to left,#d6c213, #d2c01b);
+  border-radius: 5px;
+  border: 1px solid #243b55;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+  }
+
+.mix_btn:hover {
+  background: linear-gradient(to top,#b2a217, #dac71d);
+  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+}
+.mix_btn:active {
+  transform: translateY(3px)
+
+}*/
+
+.mix_btn {
+  width: 240px;
+  height: 45px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 5px 0;
+  }
+
+.mix_btn:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.mix_sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mix_sub p {
+  margin: 10px 0;
 }
