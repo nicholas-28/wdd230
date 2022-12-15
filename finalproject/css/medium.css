@@ -49,6 +49,11 @@
     div.footer-logo {
         padding: 0 1%;
     }
+
+    /*-----COAST----*/
+    .coast-picture img {
+        max-width: 400px;
+      }
     }
 
 

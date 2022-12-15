@@ -6,6 +6,8 @@
     }
     nav button {display: none;}
 
-        
+    .coast-picture img {
+        max-width: 600px;
+      }
 
     }

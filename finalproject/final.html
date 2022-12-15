@@ -55,13 +55,13 @@
         </ul>
     </nav>
     <main>
-        <div class="container">
+        <div class="container-main">
             <div class="coast">
                 <h3>Coast Information</h3>
                 <picture class="coast-picture">
-                    <source media="(max-width: 559px)" srcset="">
-                    <source media="(max-width: 1023px)" srcset="">
-                    <img src="images/placeholder.png" alt="coast">
+                    <source media="(max-width: 559px)" srcset="images/coastsmall.webp">
+                    <source media="(max-width: 1023px)" srcset="images/coastmedium.webp">
+                    <img class="load" src="images/coastlarge.webp" alt="coast">
                 </picture>
                 <p>
                     The California Coast is one of the most iconic and scenic coasts in the country. The coastal stretch north of San Francisco in Sonoma County is home to the picturesque sea villages of Bodega, Bodega Bay, Jenner, Timber Cove, The Sea Ranch, and Gualala. Remember that you can enjoy the coast year-round.
@@ -88,11 +88,18 @@
                   </section>
             </div>
             <div class="mix">
-                
-
+                <img src="https://placeholder.com/200" data-src="images/fresh1.webp" alt="fruit drink">
+                <div>
+                        <button type="button" onclick="window.location.href='fresh.html'">Make Your Own Mix!</button>
+                    <p>
+                        Made Drinks:<span class="total_drinks"></span>
+                    </p>
+                </div>
             </div>
             <div class="fruits">
-
+                <img src="" data-src="images" alt="">
+                <img src="" data-src="" alt="">
+                <img src="" data-src="" alt="">
             </div>
         </div>
     </main>
@@ -113,5 +120,6 @@
     <script src="js/scripts.js"></script>
     <script src="js/weatherapi.js"></script>
     <script src="js/forecast.js"></script>
+    <script src="js/lazyload.js"></script>
 </body>
 </html>

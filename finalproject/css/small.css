@@ -2,7 +2,9 @@
 body {
     margin: 0;
 }
-
+:root {
+  --main-bg-color: #328b75;
+}
 h1, h2, h3 {
     font-family: 'Comfortaa', cursive;
 }
@@ -11,7 +13,7 @@ p {
 }
 /*------HEADER------*/
 header {
-    background-color: #328b75;
+    background-color: var(--main-bg-color);;
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
@@ -107,7 +109,7 @@ nav ul li.active a {
 }
 
 nav ul li a:hover {
-    color: #328b75;
+    color: var(--main-bg-color);
     transition: all .3s ease-in-out;
     background-color: #ece7e5c7;
     border-radius: 4px;
@@ -195,7 +197,7 @@ nav ul.open {display: block;}
 /*------FOOTER------*/
 
 footer{
-  background-color: #328b75;
+  background-color: var(--main-bg-color);
   align-items: center;
   max-width: 900px;
   margin: 0 auto;
@@ -247,7 +249,7 @@ footer div p {
 }
 
 .footer-info span {
-  background-color: #328b75;
+  background-color: var(--main-bg-color);
   color:#ece7e5;
   padding: 2%;
   font-size: .8em;
@@ -300,7 +302,7 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(to left,#ece7e5, #efe1dd );
+  background:linear-gradient(to left,#ece7e5, #efe1dd);
   background-position: center;
   background-repeat: no-repeat;
   border-bottom-left-radius: 2rem;
@@ -315,9 +317,10 @@ main{
   margin: auto;
 }
 .card__info {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 300;
   color: #243b55;
+  text-align: center;
 }
 .card__days {
   height: 35%;
@@ -349,5 +352,48 @@ main{
   align-items: center;
 }
 
-/*-----------MIX-----------*/
 
+
+
+/*-----------COAST---------*/
+.coast-picture img {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 1rem;
+}
+div.coast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(to left,#ece7e5, #efe1dd);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 1rem;
+}
+
+
+
+/*-----------CONTAINER----------*/
+
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/*-----------MIX------------*/
+
+div.mix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left,#ece7e5, #efe1dd);
+  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+  border-radius: 1rem;
+}
+
+.mix img {
+  max-width: 300px;
+  border-radius: 1rem;
+}
