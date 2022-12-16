@@ -93,6 +93,22 @@
     .card {
         height: 500px;
       }
+    /*-------------FRUITS--------------*/
+    #hidden {
+        display: none;
+      }
+
+
+    .fruits img {
+        width: 40%;
+        border-radius: 1rem;
+        margin: 5px;
+    }
+    .fruits {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     }
 
 
