@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 :root {
-  --main-bg-color: #328b75;
+  --main-bg-color: #138f98;
 }
 h1, h2, h3 {
     font-family: 'Comfortaa', cursive;
@@ -13,7 +13,7 @@ p {
 }
 /*------HEADER------*/
 header {
-    background-color: var(--main-bg-color);;
+    background-color: var(--main-bg-color);
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
@@ -51,7 +51,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 }   */
 
 .hamburger-nav {
-	background-color: #328b75eb;
+	background-color: #138f98e4;
 	align-items: center;
 	max-width: 900px;
 	margin: 0 auto;
@@ -258,7 +258,7 @@ footer div p {
 
 .footer-info h3 {
   background-color: #ece7e5;
-  color:#328b75;
+  color:var(--main-bg-color);
   padding: 1%;
   font-size: .8em;
   border-radius: 5px;
