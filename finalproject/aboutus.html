@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img class="hover"src="images/logo.webp" alt="logo">
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center ">
+                <ul class="list-inline social-links">
+                  <li><a href="https://twitter.com/#" class="btn-social btn-outline" title="Twitter"><i class="icon ion-social-twitter"></i></a>
+                  </li>
+                  <li><a href="https://instagram.com/#" class="btn-social btn-outline" title="Instagram"><i class="ion ion-social-instagram"></i></a>
+                  </li>
+                  <li><a href="https://www.facebook.com/#" class="btn-social btn-outline" title="Facebook"><i class="ion ion-social-facebook"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <nav class="header-nav">
+            <button id="hamburgerBtn" onclick="myFunction(this)">  
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
+            <ul>
+                <li><a href="final.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li class="active"><a href="#">About Us</a></li>      
+            </ul>
+        </nav>
+    </header>
+    <nav class="hamburger-nav">
+        <ul id="primaryNav">
+            <li><a href="final.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li class="active"><a href="#">About Us</a></li> 
+        </ul>
+    </nav>
+    <main>
+ 
+    </main>
+   <footer>
+    <div class="footer-logo">
+        <img src="images/logo.webp" alt="logo">
+    </div>
+    <div class="footer-info">
+        <h3>Bountiful <span>Foods</span></h3>
+        <div id="lastModified"></div>
+    </div>
+    <div class="contact">
+        <p>bountifulfoods@gmail.com</p>
+        <p>1-877-926-5184</p>
+        <p>71 South Los Carneros Road, Goleta, California 93117</p>
+    </div>
+   </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/lazyload.js"></script>
+</body>
+</html>
