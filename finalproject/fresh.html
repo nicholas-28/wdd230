@@ -55,7 +55,7 @@
         </ul>
     </nav>
     <main>
-        <form method="get" action="thanks.html">
+        <form method="get" name="fruits" action="">
             <fieldset>
                 <legend>Order Now!</legend>
                 <label class="top">First Name*: <input type="text" name="fname" required autofocus></label>
@@ -63,7 +63,15 @@
                 <label class="top">Phone*: <input type="tel" name="phone" placeholder="1235551234" required></label>
                     <fieldset>
                         <legend>Choose Three Fruits!</legend>
-                        <div class="checkbox"></div>
+                        <div id="fruits_selection">
+                            <label for="fruits1">Fruit 1:</label>
+                            <select id="select1" name="fruits1"></select>
+                            <label for="fruits2">Fruit 2:</label>
+                            <select id="select2" name="fruits2"></select>
+                            <label for="fruits3">Fruit 3:</label>
+                            <select id="select3" name="fruits3"></select>
+                        </div>
+
                     </fieldset>
                 <label class="top">Special Instructions<textarea type="textarea" name="instructions" required></textarea></label>
             </fieldset>
@@ -89,6 +97,7 @@
    </footer>
     <script src="js/scripts.js"></script>
     <script src="js/lazyload.js"></script>
-    <script src="js/checkbox.js"></script>
+    <script src="js/select.js"></script>
+    <script src="js/getvalue.js"></script>
 </body>
 </html>

@@ -522,7 +522,7 @@ form label.top, form div {
   font-size: 1.1rem;
 }
 
-form label.top input, form label.top select, textarea {
+form label.top input, form label.top select, textarea{
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
@@ -553,4 +553,15 @@ form label.top input:required {
 
 form label.top input:required:valid {
   border-left: green solid 6px;
+}
+select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .5rem;
+  color: #555;
+  width: 100%;
+  max-width: 19rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
