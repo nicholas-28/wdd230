@@ -55,29 +55,18 @@
         </ul>
     </nav>
     <main>
-        <form method="get" name="fruits" action="">
-            <fieldset>
-                <legend>Order Now!</legend>
-                <label class="top">First Name*: <input type="text" name="fname" required autofocus></label>
-                <label class="top">Email*: <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="top">Phone*: <input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <fieldset>
-                        <legend>Choose Three Fruits!</legend>
-                        <div id="fruits_selection">
-                            <label for="fruits1">Fruit 1:</label>
-                            <select id="select1" name="fruits1"></select>
-                            <label for="fruits2">Fruit 2:</label>
-                            <select id="select2" name="fruits2"></select>
-                            <label for="fruits3">Fruit 3:</label>
-                            <select id="select3" name="fruits3"></select>
-                        </div>
-
-                    </fieldset>
-                <label class="top">Special Instructions<textarea type="textarea" name="instructions" required></textarea></label>
-            </fieldset>
-            <input type="hidden" id="date" name="date" value="CurrentTime">
-            <input type="hidden" id="time" name="time" value="CurrentDate">
-            <input type="submit" value="Make Your Own Mix" class="submitBtn">
+        <form id="mixform">
+            <label class="top">First Name*: <input id="name" type="text" name="fname" required autofocus></label>
+            <label class="top">Email*: <input id="email" type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Phone*: <input id="phone" type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top" for="fruits1">Fruit 1:</label>
+            <select id="select1" name="fruits1"></select>
+            <label class="top" for="fruits2">Fruit 2:</label>
+            <select id="select2" name="fruits2"></select>
+            <label class="top" for="fruits3">Fruit 3:</label>
+            <select id="select3" name="fruits3"></select>
+            <label class="top">Special Instructions:<textarea id="instructions" type="textarea" name="instructions" required></textarea></label>
+            <button class="submitBtn" type="submit">Make Your Own Mix</button>
         </form>
  
     </main>

@@ -518,8 +518,9 @@ form legend {
 form label.top, form div {
   display: block;
   padding-top: 1rem;
-  color: #9c2c13;
+  color: #8a3420;
   font-size: 1.1rem;
+  font-family: 'Comfortaa', cursive;
 }
 
 form label.top input, form label.top select, textarea{
@@ -530,8 +531,9 @@ form label.top input, form label.top select, textarea{
   padding: .75rem;
   color: #555;
   width: 100%;
-  max-width: 20rem;
+  max-width: 30rem;
   background-color: rgba(0, 0, 0, 0.1);
+
 }
 
 
@@ -544,15 +546,15 @@ form input.submitBtn {
   padding: .75rem 1.5rem;
   margin: 0 0 2rem 2%;
   width: 96%;
-  max-width: 20rem;
+  max-width: 30rem;
 }
 
 form label.top input:required {
-  border-left: red solid 6px;
+  border-left: rgba(198, 70, 70, 0.85) solid 6px;
 }
 
 form label.top input:required:valid {
-  border-left: green solid 6px;
+  border-left: rgb(70, 165, 70) solid 6px;
 }
 select {
   display: block;
@@ -562,6 +564,42 @@ select {
   padding: .5rem;
   color: #555;
   width: 100%;
-  max-width: 19rem;
+  max-width: 30rem;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+form button.submitBtn {
+  width: 100%;
+  height: 45px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 10px 0;
+  max-width: 30rem;
+  padding: .75rem 1.5rem;
+  }
+
+  button.submitBtn:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+form {
+  background: linear-gradient(to left,#ece7e5, #efe1dd);
+  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+  border-radius: 1rem;
+  border: 2px solid #243b55;
+  margin: 0 1rem;
+  padding: 0 .5rem;
 }
