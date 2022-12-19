@@ -109,6 +109,45 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    .aboutus h3 {
+        font-size: 1.5em;
+
+      }
+      
+      .aboutus p {
+        font-size: 1em;
+      }
+      .aboutus{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+      }
+      .abouth3{
+        grid-column:1/3 ;
+        grid-row: 1;
+      }
+      .about_top {
+        grid-column:1/2 ;
+        grid-row: 2;
+      }
+
+      .about_sub {
+        grid-column:2/3 ;
+        grid-row: 2;
+        border-left: 1px solid #243b55;
+
+      }
+      .mapdiv{
+        grid-column:1/3 ;
+        grid-row: 3;
+      }
+      #map{
+        width: 100%;
+        max-width: 500px;
+        height: 300px;
+
+      }
     }
 
 

@@ -389,6 +389,7 @@ div.coast {
 
 .coast h3 {
   font-size: 1.6em;
+
 }
 
 .coast p {
@@ -602,4 +603,38 @@ form {
   border: 2px solid #243b55;
   margin: 0 1rem;
   padding: 0 .5rem;
+}
+
+/*--------ABOUTUS----------*/
+
+.aboutus{
+  background: linear-gradient(to left,#ece7e5, #efe1dd);
+  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+  border-radius: 1rem;
+  border: 2px solid #243b55;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.aboutus h3 {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.aboutus p {
+  margin: 20px;
+  font-size: 1.3em;
+}
+
+#map{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 20px
+}
+.mapdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
